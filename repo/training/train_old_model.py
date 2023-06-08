@@ -1,6 +1,6 @@
-import argparse
+
 from torchvision import transforms
-import time
+import time, argparse
 import os, sys
 from time import strftime
 from sklearn.metrics import mean_squared_error, accuracy_score, hamming_loss, roc_curve, auc, f1_score
